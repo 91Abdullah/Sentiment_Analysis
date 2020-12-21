@@ -6,10 +6,10 @@ import json
 import preprocessor
 
 # Twitter app secret
-ACCESS_TOKEN = '1411207512-FKhompcUPiHpOkBdUKH6yyglP1Hvq48gNQis14n'
-ACCESS_SECRET = 'KsU6XHCpSLWw4rJ6FFfYECWCZz6E7bYTrWTOd0Vq9be3Z'
-CONSUMER_KEY = '7VE1rqbRKR4fGZgmVKnXa8xiJ'
-CONSUMER_SECRET = 'sJEN09swuXFvEeoLR5jr355iEVHm1KQUEI8TY0WP615PFlIhpj'
+ACCESS_TOKEN = 'Enter your key here'
+ACCESS_SECRET = 'Enter your key here'
+CONSUMER_KEY = 'Enter your key here'
+CONSUMER_SECRET = 'Enter your key here'
 my_auth = requests_oauthlib.OAuth1(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_SECRET)
 
 
